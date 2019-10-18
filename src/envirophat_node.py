@@ -1,6 +1,6 @@
 from time import sleep, time
 
-from ros2_utils.callbacks import log_level as llcb
+# from ros2_utils.callbacks import log_level as llcb
 
 from envirophat import light
 import rclpy
@@ -16,7 +16,7 @@ class EnvirophatNode:
 
         self.rgb_pub = self.node.create_publisher(UInt16MultiArray, 'rgb')
 
-        self.log_level_sub = self.node.create_subscription(String, 'log_level', lambda msg: llcb(msg, self.node), 10)
+        # self.log_level_sub = self.node.create_subscription(String, 'log_level', lambda msg: llcb(msg, self.node), 10)
 
     def run(self):
         self.logger.info(f'Starting loop rate at {self.rate} hz...')

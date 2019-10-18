@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'envirophat_node'
+package_name = 'ros2_envirophat'
 
 setup(
     name=package_name,
