@@ -1,5 +1,5 @@
 # ros2_envirophat
-ROS2 node for the Pimeroni Envirophat
+ROS2 node for the [Pimeroni Enviro pHAT](https://shop.pimoroni.com/products/enviro-phat)
 
 ## Suggested Hardware and Operating Systems (UNTESTED)
 
