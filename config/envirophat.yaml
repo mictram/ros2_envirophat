@@ -1,0 +1,3 @@
+envirophat_node:
+  ros__parameters:
+    timer_period_sec: 1
