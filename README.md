@@ -33,9 +33,9 @@ ROS2 node for the [Pimeroni Enviro pHAT](https://shop.pimoroni.com/products/envi
 `pip install -r src/ros2_envirophat/requirements-jetson.txt`
 
 ### Build and source setup scripts
-`source /opt/ros/dashing/setup.bash`
-
 `colcon build --symlink-install`
+
+`source /opt/ros/dashing/setup.bash`
 
 `source install/setup.bash && source local_setup.bash`
 
