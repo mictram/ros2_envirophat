@@ -16,7 +16,9 @@ ROS2 node for the [Pimeroni Enviro pHAT](https://shop.pimoroni.com/products/envi
 
 ### Workspace
 `mkdir -p ~/enviro_ws/src`
+
 `cd ~/enviro_ws`
+
 `git clone https://github.com/cheymber/ros2_envirophat.git src`
 
 ### Dependancies and Python virtual environment
