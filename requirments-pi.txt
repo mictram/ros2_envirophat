@@ -1,0 +1,6 @@
+colcon-common-extensions
+envirophat
+# hg+http://hg.code.sf.net/p/raspberry-gpio-python/code#egg=RPi.GPIO
+lark-parser
+pytest==4.6.3 # NO CHANGE
+RPi.GPIO
