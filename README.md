@@ -23,6 +23,7 @@ ROS2 node for the [Pimeroni Enviro pHAT](https://shop.pimoroni.com/products/envi
 
 ### Dependancies and Python virtual environment
 `sudo apt update && sudo apt install python3-venv`
+
 `python3 -m venv enviro && source enviro/bin/activate`
 
 ### Raspberry Pi 3B(+), 4
@@ -33,7 +34,9 @@ ROS2 node for the [Pimeroni Enviro pHAT](https://shop.pimoroni.com/products/envi
 
 ### Build and source setup scripts
 `source /opt/ros/dashing/setup.bash`
+
 `colcon build --symlink-install`
+
 `source install/setup.bash && source local_setup.bash`
 
 ### Launch
